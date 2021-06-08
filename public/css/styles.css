@@ -1,0 +1,99 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar-brand{
+    font-family: 'Mate SC', serif;
+     font-size: 40px;
+     font-weight: bold;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #7f19c4 !important;
+  font-family: 'Source Sans Pro', sans-serif;  
+}
+
+.navbar-nav{
+    font-size: 18px;
+}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:10vh;
+	right:40px;
+	background-color:#dfc11a;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    text-align: center;
+	width: 100%;
+	background-color: #7f19c4;
+}
+
+
+.footer p {
+	margin-top: 25px;
+	font-size: 14px;
+  color: #fff;
+}
+
+.header{
+    text-align: center;
+}
+
+
+
+#form_container
+{
+    border-radius: 10px;
+	padding:15px 15px;
+	margin:10vh 0;
+    background-color: #341946;	
+	color:#fff;
+}
+
+.upload-btn-wrapper 
+{
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file] 
+{
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+

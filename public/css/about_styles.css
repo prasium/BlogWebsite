@@ -1,0 +1,55 @@
+.row{
+    display: flex;
+    justify-content: center;
+}
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 10vh;
+  }
+  img{
+      width: auto;
+      height: 250px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #0f2147;
+    color: white;
+  }
+  
+  .container-card{
+      width: auto;
+    padding: 10px 20px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    padding: 8px;
+    color: white;
+    background-color: #0f2147;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .button:hover {
+    background-color: #27427c;
+  }
+  
